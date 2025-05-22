@@ -1,4 +1,4 @@
-Hi team GITHUB
+Hi GITHUB team
 
 Please write down the changes that you were trying to commit
 
