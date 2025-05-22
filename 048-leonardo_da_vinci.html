@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Leonardo da Vinci </title>
+        <link rel="icon" type="image/x-icon" href="../img/Sandbox-icon.jpg"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <style>
+            .main{
+                width: 800px; margin: 20px auto;
+                border: 10px double #4C7D68;
+                border-radius: 10px;
+                padding: 10px;
+            }
+
+            .main h1{
+                text-align: center;
+                text-transform: uppercase; letter-spacing: 5px;
+                text-shadow: 2px 2px 0.1px white, -5px -5px 0.5px #C1CDC8, 5px 5px 4px #4C7D68;
+            }
+            address{
+                display: inline;
+            } 
+            .biographie, .ouvres{
+                text-align: left;
+                column-rule: 2px solid #4C7D68;
+                column-gap: 20px;
+            }
+            .biographie{
+                column-count: 3;
+            }
+            .ouvres{
+                column-count: 4;
+            }
+            
+            .biographie > h2, .ouvres > h2{
+                column-span: all;
+                border-bottom: 2px solid #4C7D68;
+            } 
+            .ouvres cite{
+                display: block;
+                border-bottom: 1px solid #4C7D68;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1> Léonard de Vinci </h1>
+            <div class="introduction">
+                <dfn>Léonard de Vinci</dfn> <time datetime="1452">1452</time><time datetime="1519">1519</time> était un artiste, inventeur, scientifique et polymathe italien de la Renaissance.
+                Il est souvent considéré comme l'un des esprits les plus créatif
+            </div>
+
+            <div class="biographie">
+                <h2>Biographie</h2>
+
+                <dfn>Léonard de Vinci</dfn> est né le <time datetime="1492-04-15"> 15 avril 1452 </time>à <adress> Vinci, en Italie</adress>. Il a reçu une éducation diversifiée, couvrant des domaines tels que les arts, les
+                sciences et les mathématiques. Très tôt, il a montré un talent exceptionnel pour le dessin et la peinture. Il a travaillé comme
+                apprenti auprès de l'artiste florentin Andrea del Verrocchio et a acquis une solide formation artistique.
+            </div>
+
+            <div class="ouvres">
+                <h2>Oeuvres</h2>
+                <cite>La Cène</cite>
+                Il s'agit d'une fresque emblématique peinte sur le mur du réfectoire du monastère
+                de <address>Maria delle Grazie à Milan</address>. L'œuvre représente le dernier repas de Jésus avec ses disciples.
+                
+                <cite>La Joconde</cite>
+                Ce célèbre portrait, également connu sous le nom de Mona Lisa, est considéré
+                comme l'une des peintures les plus célèbres et énigmatiques de l'histoire de l'art. Il est exposé au musée du Louvre à Paris.
+                
+                <cite>La Vierge</cite> aux rochers
+                C'est une série de deux peintures représentant la Vierge Marie avec l'enfant
+                Jésus. L'une des versions se trouve à la <address>National Gallery de Londres</address>, tandis que l'autre est conservée au Louvre.
+                
+                <cite>L'Homme de Vitruve</cite>
+                Il s'agit d'un célèbre dessin représentant les proportions idéales du corps
+                humain, basé sur les écrits de l'architecte romain Vitruve.
+            
+            </div>
+        </div>
+    </body>    
+
+</html>
